@@ -1,0 +1,15 @@
+# PEMDAS
+result = 3 + 4 * 2 / (1 - 5) ** 2 ** 3
+"""
+step 1: Parentheses
+result = 3 + 4 * 2 / (-4) ** 2 **
+step 2: Exponents (right to left)
+result = 3 + 4 * 2 / (-4) ** 8
+step 3: Exponents
+result = 3 + 4 * 2 / 65536
+step 4: Multiplication and Division (left to right)
+result = 3 + 0.0001220703125
+step 5: Addition
+result = 3.0001220703125
+"""
+print(result) # Output: 3.0001220703125
