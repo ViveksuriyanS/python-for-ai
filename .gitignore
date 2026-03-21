@@ -1,0 +1,8 @@
+# Ignore the below
+# This is a .gitignore file. It tells git which files or folders to ignore in a project.
+.venv/
+__pycache__/
+*.pyc
+.idea/
+.DS_Store
+.env
