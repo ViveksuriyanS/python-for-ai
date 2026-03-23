@@ -20,9 +20,12 @@ class Dog(Animal):
 
 
 Animal1 = Animal("Generic Animal")
-print(Animal1.eat())
+print(Animal1.eat()) # Output: Generic Animal is eating.
 
 Dog1 = Dog("Buddy")
 print(Dog1.eat())  # Inherited method from Animal class
 print(Dog1.bark())  # Method specific to Dog class
 print(Dog1.sleep())  # Inherited method from Animal class
+
+Dog2 = Dog("Max")
+print(Dog2.eat())  # Inherited method from Animal class
