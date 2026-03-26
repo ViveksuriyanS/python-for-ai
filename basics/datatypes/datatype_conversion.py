@@ -57,3 +57,9 @@ print(bool_val)  # Output: False
 str_val = ""
 bool_val = bool(str_val)  # Convert string to boolean
 print(bool_val)  # Output: False
+
+
+# Converting string value with float to int
+str_val = "5.0"
+int_val = int(float(str_val))  # Convert string to float and then to integer
+print(int_val)  # Output: 5

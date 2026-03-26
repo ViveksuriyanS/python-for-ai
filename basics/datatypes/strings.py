@@ -1,5 +1,5 @@
 # Strings in Python
-# A string is a sequence of characters
+# A string is a sequence of Unicode characters
 # enclosed in single quotes (' '), double quotes (" "), or triple quotes (''' ''' or """ """).
 # Strings are immutable, meaning they cannot be changed after they are created.
 
@@ -13,8 +13,18 @@ print(length)  # Output: 20
 # Concatenation of strings
 first_name = "Viveksuriyan"
 last_name = "Subramani"
+age = "32"
+description = """
+    Viveksuriyan Subramani is a software engineer with expertise in Python programming and AI development.
+    He has a strong background in machine learning, deep learning, and natural language processing.
+    Viveksuriyan is passionate about creating innovative solutions and has a proven track record of delivering high-quality software products.
+    He is a dedicated professional who continuously seeks to expand his knowledge and skills in the field of artificial intelligence.
+"""
 full_name = first_name + " " + last_name
 print(full_name)  # Output: Viveksuriyan Subramani
+print(
+    description
+)  # Output: Viveksuriyan Subramani is a software engineer with expertise in Python programming and AI development. He has a strong background in machine learning, deep learning, and natural language processing. Viveksuriyan is passionate about creating innovative solutions and has a proven track record of delivering high-quality software products. He is a dedicated professional who continuously seeks to expand his knowledge and skills in the field of artificial intelligence.
 
 # f-strings for string interpolation
 age = 32

@@ -1,3 +1,13 @@
+# Operators in Python
+1. Arithmetic Operator
+2. Comparison Operator
+3. Logical(Boolean) Operator
+4. Bitwise Operator
+5. Assignment Operator
+6. Special Operator
+
+
+
 # PEMDAS
 result = 3 + 4 * 2 / (1 - 5) ** 2 ** 3
 """
